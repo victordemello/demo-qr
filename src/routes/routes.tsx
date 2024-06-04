@@ -9,32 +9,32 @@ import { App } from "@/App";
 import { ReportForm } from "@/pages/report-form/ReportForm";
 
 export const router = createBrowserRouter([
-    {
-        path: "/",
+    {       
+        path: "/demo_qr/",
         element: <App/>,
         children: [
             {
-                path: "/",
+                path: "/demo_qr/",
                 element: <Home/>
             },
             {
-                path: "/home",
+                path: "/demo_qr/home",
                 element: <Home/>
             },
             {
-                path: "/report",
+                path: "/demo_qr/report",
                 element: <Report/>
             },
             {
-                path: "/report-follow-up",
+                path: "/demo_qr/report-follow-up",
                 element: <ReportFallowUp/>
             },
             {
-                path: "/data-protection",
+                path: "/demo_qr/data-protection",
                 element: <DataProtection/>
             },
             {
-                path: "/report-form",
+                path: "/demo_qr/report-form",
                 element: <ReportForm/>
             },
         ]
