@@ -17,8 +17,8 @@ export function Home(){
             </p>
             </div>
             <div className="w-3/4 space-x-5 font-poppinsMedium">
-                <Button size={"lg"} asChild><Link to={"/report"}>Realizar relato</Link></Button>
-                <Button size={"lg"} asChild><Link to={"/report-follow-up"}>Acompanhar relato</Link></Button>
+                <Button size={"lg"} asChild><Link to={"demo_qr/report"}>Realizar relato</Link></Button>
+                <Button size={"lg"} asChild><Link to={"demo_qr/report-follow-up"}>Acompanhar relato</Link></Button>
             </div>
         </section>
     )

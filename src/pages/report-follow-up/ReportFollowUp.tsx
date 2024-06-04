@@ -20,7 +20,7 @@ export function ReportFallowUp(){
             </div>
             <div className="w-3/4 space-x-5 font-poppinsMedium">
                 <Button size={"lg"} asChild><Link to={""}>Consultar protocolo</Link></Button>
-                <Button size={"lg"} asChild><Link to={"/home"}>Voltar</Link></Button>
+                <Button size={"lg"} asChild><Link to={"demo_qr/home"}>Voltar</Link></Button>
             </div>
         </section>
     )
